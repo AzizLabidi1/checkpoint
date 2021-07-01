@@ -1,0 +1,68 @@
+body {
+    font-family: roboto ;
+}
+
+
+.divContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:rgb(186, 204, 185);
+    margin:0px -10px 0px -10px;
+    height:100px;
+    width: 100%;
+    flex-direction: row;
+
+}
+
+.item{
+    color: white;
+    font-size: 20px;
+}
+.item:last-child{
+margin-left: 55%;
+align-self: center;
+}
+.about{
+    font-size: 30px;
+}
+img{
+    width : 500px;
+    height : 300px;
+}
+.work{
+    font-size: 30px;
+
+}
+iframe{
+    width : 1300px;
+    height : 500px;
+}
+.resume{
+    font-size: 30px;
+
+}
+table{
+    height: 300px;
+    width: 600px;
+    border: 1px solid black !important;
+    background-color: rgb(186, 196, 192);
+}
+tr>*{
+    border: 1px solid black !important;
+    text-align: center;
+
+}
+.contact{
+    font-size: 20px;
+    color:gray;
+
+}
+footer{
+    background-color: rgb(186, 204, 185); 
+    margin:-10px;
+    padding-left:1120px;
+}
+footer>p{
+    color: white;
+}
